@@ -1,0 +1,19 @@
+{
+  "name": "Event",
+  "type": "record",
+  "namespace": "kafka101.mydev",
+  "fields": [
+    {
+      "name": "nom",
+      "type": "string"
+    },
+    {
+      "name": "prenom",
+      "type": "string"
+    },
+    {
+      "name": "ville",
+      "type": "string"
+    }
+  ]
+}

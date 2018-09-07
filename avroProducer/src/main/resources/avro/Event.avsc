@@ -1,0 +1,31 @@
+{
+  "name": "LogEvent",
+  "type": "record",
+  "namespace": "kafka101.mydev",
+  "fields": [
+    {
+      "name": "server",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "userid",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "songid",
+      "type": "int"
+    },
+    {
+      "name": "duration",
+      "type": "int"
+    }
+  ]
+}
